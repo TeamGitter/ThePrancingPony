@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#navigation {
+  list-style-type: none;
+  display: flex;
+  position: fixed;
+  margin-top: 0.5em;
+  margin-left: 2em;
+  top: 0;
+  border: 2px solid black;
+  padding: 1em;
+}
+
+.menu-items {
+  padding-left: 1em;
+  transition: all 0.2s ease-in-out;
+}
+
+.menu-items:first-child {
+  padding-left: 0;
+}
+
+a {
+  font-size: 1.125em;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  transition: 0.3s;
+  font-family: fantasy;
+}
+
+a:hover {
+  color: #879951;
+}
+
+li:hover {
+  transform: scale(0.95);
+}
+
+#welcome-and-paragraph {
+  margin-top: 5em;
+}
+
+#welcome-paragraph {
+  max-width: 75ch;
+}
