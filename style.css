@@ -15,6 +15,12 @@ a {
   font-family: 'Old English Five', sans-serif;
 }
 
+header > img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
 main {
   background-image: url("https://cdn.pixabay.com/photo/2016/10/30/09/30/hot-chocolate-1782623_1280.jpg");
   background-size: cover;
